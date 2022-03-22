@@ -140,8 +140,8 @@ git clone git@github.com:reedajohns/Feedforward-NN-with-Keras-and-TensorFlow.git
 
 Open terminal and run either command:
 ```
-python mnist_example_keras.py
-python cifar10_example_keras.py
+python mnist_example_keras.py --output ../media/keras_mnist.png
+python cifar10_example_keras.py --output ../media/keras_cifar10.png
 ```
 
 ## Authors
