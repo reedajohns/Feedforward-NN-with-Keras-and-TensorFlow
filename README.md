@@ -107,7 +107,22 @@ rate (SGD) of 0.01.
 
 The results summary can be seen below:
 ```buildoutcfg
+              precision    recall  f1-score   support
 
+    airplane       0.50      0.73      0.59      1000
+  automobile       0.66      0.66      0.66      1000
+        bird       0.58      0.29      0.39      1000
+         cat       0.43      0.26      0.32      1000
+        deer       0.34      0.71      0.46      1000
+         dog       0.53      0.38      0.44      1000
+        frog       0.63      0.58      0.60      1000
+       horse       0.67      0.53      0.59      1000
+        ship       0.71      0.62      0.66      1000
+       truck       0.58      0.60      0.59      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.56      0.54      0.53     10000
+weighted avg       0.56      0.54      0.53     10000
 ```
 
 The training loss and accuracy plot for both the training and validation 
